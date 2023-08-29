@@ -1,0 +1,156 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 10px 0px #000;
+  background-color: #b86758;
+}
+
+.navbar-logo img {
+  height: 100px;
+}
+
+.navbar-menu ul {
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-menu ul li {
+  margin-bottom: 10px;
+}
+
+.navbar-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-menu ul li a:hover {
+  border-bottom: 4px solid white;
+}
+.navbar-menu ul li.active a {
+  border-bottom: 4px solid white;
+}
+.navbar-menu ul li.dd-menu.active > a {
+  border-bottom: 4px solid white !important;
+}
+
+.navbar-menu-button {
+  cursor: pointer;
+}
+
+.navbar-menu-button svg {
+  font-size: 24px;
+  color: #333;
+}
+
+.navbar-menu {
+  display: none;
+}
+
+.iconsfont {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  opacity: 0.2;
+  color: white;
+}
+
+.iconsfont:hover {
+  opacity: 1;
+  color: white;
+}
+
+.open {
+  display: block;
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  top: 6.5rem;
+  background: #b86758;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  animation: slideIn 0.8s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.navbar-menu ul li:hover > ul {
+  display: block;
+}
+
+/* Rest of the CSS code remains the same as before */
+
+.dd-menu {
+  position: relative;
+}
+.dropdown {
+  display: none !important;
+  position: absolute;
+  top: 105%;
+  left: 35%;
+  width: max-content !important;
+  background: #b86758;
+  padding: 10px;
+  z-index: 8888888;
+  box-shadow: 1px 1px 5px 0px #000;
+  flex-direction: column !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Add a hover selector for the "Services" link */
+.navbar-menu ul li:hover > .dropdown {
+  display: block !important;
+}
+
+.navbar-menu ul ul li {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  list-style: none;
+  display: block;
+  width: 100%;
+}
+
+.navbar-menu ul ul li a {
+  font-size: 1rem;
+}
+
+/* .navbar-menu ul ul li a:hover {
+  text-decoration: underline;
+} */
+
+@media (min-width: 780px) {
+  .navbar-menu-button {
+    display: none;
+  }
+  .navbar-menu {
+    display: block;
+    position: static;
+    background-color: transparent;
+    width: auto;
+    padding: 0;
+  }
+
+  .navbar-menu ul {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .navbar-menu ul li {
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+}

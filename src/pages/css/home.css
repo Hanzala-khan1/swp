@@ -1,0 +1,195 @@
+.main {
+  width: 100%;
+  min-height: 100vh; /* Changed height to min-height for responsiveness */
+  background: url("../../assets/Nhome.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.5s ease-in-out;
+  display: flex; /* Added display flex to enable flexbox properties */
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+.animation-div {
+  position: relative;
+  overflow-x: hidden;
+  background-color: red;
+  animation-name: slideRight;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideRight {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: calc(100%);
+  }
+}
+.headingMain {
+  /* font-size: 24px; */
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0px 1rem;
+  padding-top: 1rem;
+  /* color: #0096c7; */
+}
+.Appname h1 {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Cormorant Garamond", serif !important;
+  letter-spacing: 2px !important;
+  color: white;
+  margin-bottom: 0px !important;
+}
+.App_desc span {
+  font-size: 12px;
+  border-right: 2px solid white;
+  font-family: "Cormorant Garamond", serif !important;
+  letter-spacing: 2px !important;
+  padding: 0.3rem;
+  color: white;
+}
+
+.startButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+  margin-bottom: 2rem;
+  padding: 0rem 2rem;
+}
+
+.startButton > div:last-child {
+  display: flex;
+  flex-wrap: wrap; /* Added flex-wrap to allow the items to wrap on smaller screens */
+  gap: 10px;
+}
+
+.Explore {
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: #0096c7;
+  color: rgb(235, 234, 234);
+  border-radius: 50px;
+  text-align: center;
+  height: 3.6rem;
+  width: 12rem;
+  cursor: pointer;
+}
+.Explore:hover {
+  background-color: #028fbe;
+}
+
+.innernew {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items in the column */
+  padding: 0 1rem; /* Added padding for spacing */
+}
+
+.innernew img {
+  width: 80px;
+  height: 95px;
+  /* margin-right: 1rem; */
+}
+.subBox {
+  width: 5rem !important;
+}
+.icon a {
+  font-size: 1.8rem;
+  color: white;
+  margin: 0.4rem;
+}
+/* Media queries for small and medium screens */
+
+@media (max-width: 768px) {
+  .Appname h1 {
+    font-size: 28px;
+    font-weight: 900;
+  }
+  .App_desc span {
+    font-size: 12px;
+    padding: 0.3rem;
+  }
+
+  .Explore {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(235, 234, 234);
+    border-radius: 50px;
+    text-align: center;
+    height: 3rem;
+    width: 9rem;
+  }
+
+  .innernew img {
+    width: 63px;
+    height: 75px;
+  }
+  .icon a {
+    font-size: 1.4rem;
+    color: white;
+    margin: 0.4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .headingMain {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0px 2rem;
+    padding-top: 2rem;
+  }
+  .Appname h1 {
+    font-size: 28px;
+    font-weight: 900;
+  }
+  .App_desc span {
+    font-size: 12px;
+    padding: 0.2rem;
+  }
+
+  .startButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0rem 2rem;
+  }
+
+  .startButton > div:last-child {
+    display: flex;
+    flex-wrap: wrap; /* Added flex-wrap to allow the items to wrap on smaller screens */
+    gap: 10px;
+  }
+
+  .Explore {
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    text-align: center;
+    height: 2.8rem;
+    width: 8rem;
+  }
+  .innernew img {
+    width: 60px;
+    height: 71px;
+  }
+  .icon a {
+    font-size: 1.3rem;
+    color: white;
+    margin: 0.4rem;
+  }
+}

@@ -1,0 +1,40 @@
+.headerwedding {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.weeding-image {
+  height: 100vh;
+  width: 100vw;
+}
+.weddingDiv {
+  width: 100%;
+  margin: 1.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.weddingpara {
+  margin-bottom: 0.2rem;
+}
+.wedding-container-slider {
+  width: 92%;
+  margin: auto;
+}
+.wedding-container-slider-images {
+  width: 90%;
+  margin: auto;
+}
+.weddingframe {
+  border-radius: 3%;
+}
+.wedding-heading {
+  margin: auto !important;
+  width: max-content;
+}
+@media (max-width: 500px) {
+  .headerwedding {
+    height: 44vh;
+  }
+}

@@ -1,0 +1,93 @@
+.blogs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  height: 100vh;
+  width: 75%;
+  height: 100%;
+  padding-top: 3rem;
+  /* background-color: rgb(255, 145, 0); */
+  margin: 0px auto;
+}
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+header,
+main,
+footer {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+main {
+  padding: 2rem 0;
+}
+
+.blog-card {
+  margin-bottom: 2rem;
+}
+
+.blog-card img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.blog-card h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.blog-card p {
+  margin: 0.5rem 0;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+footer {
+  padding: 1rem 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  header,
+  main,
+  footer {
+    width: 90%;
+  }
+
+  .blog-card img {
+    max-height: 150px;
+  }
+
+  .blog-card h2 {
+    font-size: 1.2rem;
+  }
+
+  .read-more {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.9rem;
+  }
+}

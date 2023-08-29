@@ -1,0 +1,139 @@
+.containerimage {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#div1 {
+  background-image: url("../../assets/UTDance.jpg");
+}
+
+#div2 {
+  background-image: url("../../assets/UTDance.jpg");
+}
+
+#div3 {
+  background-image: url("../../assets/wedding_choerogrphy.jpg");
+}
+#div4 {
+  background-image: url("../../assets/Bollywod_dance.jpg");
+}
+#div5 {
+  background-image: url("../../assets/firness.jpg");
+}
+#div6 {
+  background-image: url("../../assets/Studio_for_rent.JPG");
+}
+#div7 {
+  background-image: url("../../assets/SANSANA.jpg");
+}
+
+.blackbox {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(8, 8, 8, 0.72);
+  position: absolute;
+  top: -20%;
+}
+.inner_text {
+  width: 70%;
+  height: 45vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inner_text h1 {
+  font-weight: 800;
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+}
+.inner_text p {
+  font-weight: 300;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.blackbox a {
+  text-decoration: none;
+  background-color: none;
+  background: none;
+  border: none;
+  border-bottom: 2px dotted white;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.blackbox a:hover {
+  color: #e84524;
+  border-bottom: 2px dotted #e84524;
+  cursor: pointer;
+}
+.toptraingle {
+  width: 100%;
+  height: 15vh;
+  position: absolute;
+  top: -33.1%;
+}
+.bottomtraingle {
+  width: 100%;
+  height: 15vh;
+  position: absolute;
+  bottom: -33.2%;
+}
+.black-svg {
+  width: 100%;
+  height: 15vh;
+}
+
+@media (max-width: 1024px) {
+  .inner_text h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .inner_text p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .inner_text h1 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+  }
+  .inner_text p {
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+  .blackbox a {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+@media (max-width: 500px) {
+  .inner_text h1 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+  }
+  .inner_text p {
+    font-size: 0.8rem;
+    margin-bottom: 12px;
+  }
+  .blackbox a {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}

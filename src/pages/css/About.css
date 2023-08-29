@@ -1,0 +1,212 @@
+.AboutMain {
+  width: 80%;
+  height: 100%;
+  /* background-color: rgb(255, 145, 0); */
+  margin: 0px auto;
+  padding-bottom: 2rem;
+}
+.AboutMainteam {
+  width: 80%;
+  height: 100%;
+  /* background-color: rgb(255, 145, 0); */
+  margin: 0px auto;
+  padding-bottom: 2rem;
+}
+.swiper-button-next {
+  color: #b86758 !important;
+}
+.swiper-button-prev {
+  color: #b86758 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #b86758 !important ;
+}
+.swiper-wrapper {
+  /* padding: 0rem 10rem !important; */
+  margin: 0px 2rem;
+  margin-bottom: 2rem !important;
+}
+.HeadAbout {
+  font-weight: 900;
+  color: #b86758;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.8rem;
+  margin: 4rem 1rem;
+}
+.meetteam {
+  color: #b86758;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin: 1rem 1rem;
+  margin-top: 2rem;
+}
+.Danceteacher {
+  color: #b86758;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+.aboutIntro {
+  display: flex;
+  justify-content: space-around;
+}
+.ImgDiv {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.img {
+  width: 100%;
+  height: 100%;
+}
+.paraDiv {
+  width: 62%;
+}
+.paraDiv p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  /* word-spacing: 10px; */
+}
+.AboutButton {
+  /* width: 100%; */
+  color: #f2f2d6;
+  font-weight: 600;
+  margin: 5rem 1rem;
+  font-family: "Open Sans", sans-serif;
+  background-color: #b86758;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+.AboutButton:hover {
+  color: black;
+}
+.videoBanner {
+  width: 100%;
+  height: 70vh;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+/* Apply these styles for the slider container */
+.slider-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Apply these styles for each slide */
+.slide {
+  width: 100%;
+  height: auto; /* Allow the height to adjust based on the content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem; /* Add some padding for spacing between slides */
+}
+
+.inner-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Make the image a perfect circle */
+.slide img {
+  width: 14rem; /* Adjust the width of the image as needed */
+  height: 14rem; /* Allow the height to adjust based on the image aspect ratio */
+  border-radius: 50%;
+  object-fit: cover; /* Ensure the image covers the entire circle */
+}
+
+.team-info {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 1rem; /* Add some padding to center the content */
+}
+.team-info h6 {
+  font-weight: 900;
+  font-family: bodyfont !important;
+}
+.team-info span {
+  color: #b86758;
+}
+.team-info p {
+  text-align: center !important;
+  padding: 0px !important;
+}
+
+/* Add hover effect */
+.team-info:hover {
+  color: #b86758 !important;
+  cursor: pointer;
+}
+@media (min-width: 1100px) {
+  .Danceteacher {
+    font-weight: 900;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .paraDiv p {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .AboutMain {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  .aboutIntro {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .paraDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ImgDiv {
+    width: 100%;
+  }
+  .AboutButton {
+    text-align: center;
+    width: 100% !important;
+    font-weight: 600;
+    margin: 1rem 0.4rem;
+    padding: 1rem 2rem;
+  }
+}
+@media (min-width: 1500px) {
+  .Danceteacher {
+    font-weight: 900;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .ImgDiv {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .paraDiv {
+    width: 55%;
+  }
+  .paraDiv p {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    font-size: xx-large;
+  }
+}
