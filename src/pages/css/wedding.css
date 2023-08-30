@@ -33,6 +33,9 @@
   margin: auto !important;
   width: max-content;
 }
+.wedding-btn {
+  margin: 1rem !important;
+}
 @media (max-width: 500px) {
   .headerwedding {
     height: 44vh;

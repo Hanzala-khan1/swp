@@ -82,16 +82,16 @@ const Gallery = () => {
             <div className='wedding-container-slider-images'>
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
-                    spaceBetween={0}
+                    spaceBetween={30}
                     slidesPerView={slidesPerView}
                     navigation
+                    loop
                     pagination={{ clickable: true }}
                     style={{ padding: '1rem 2rem' }}
                 >
                     {galleryImages.map((image, index) => (
                         <SwiperSlide
                             key={index}
-                            className='swiperSlide'
                         >
                             <div className='thumb'>
                                 <LazyImage image={{ src: image, alt: `Image ${index}`, className: 'zoom' }} />

@@ -17,7 +17,7 @@ const WeddingCreagraphy = () => {
             </div>
             <div className='AboutMain'>
                 <div className='weddingDiv'>
-                    <h2 className='Danceteacher wedding-heading'>Wedding Choreography</h2>
+                    <h2 className='Danceteacher wedding-heading wedding-btn'>Wedding Choreography</h2>
                     <p className='weddingpara'>
                         South Asian weddings are always a festive occasion! Whether you’re looking for help planning
                         an epic Sangeet or wanting a customized first dance, Pray is here to help.
@@ -26,7 +26,7 @@ const WeddingCreagraphy = () => {
                         Bollywood dance choreography, performances, and workshops at all kinds of South Asian and
                         fusion weddings.
                     </p>
-                    <Link to="/contact-us" className='AboutButton wedding-heading' >
+                    <Link to="/contact-us" className='AboutButton wedding-btn' >
                         Get in Touch
                     </Link>
                 </div>

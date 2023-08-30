@@ -23,7 +23,7 @@ const StudioForRent = () => {
                         space is 425 sq. ft. and even features a hand-painted mural — perfect for video backdrops.</p>
 
                     <div class="divs">
-                        <button class='studioButton'>
+                        <button class='AboutButton stdbtn'>
                             Book Now
                         </button>
                     </div>

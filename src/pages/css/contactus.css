@@ -41,7 +41,7 @@ body {
 }
 .namediv {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 .contact-form h2 {
   margin-bottom: 30px;

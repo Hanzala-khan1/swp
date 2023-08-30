@@ -49,15 +49,15 @@ img.zoom {
   height: 15rem;
 }
 .thumb {
-  width: auto;
-  height: auto; /* Allow the height to adjust based on the content */
+  width: 23rem !important;
+  height: 15rem !important; /* Allow the height to adjust based on the content */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .iframe {
-  width: 23rem;
-  height: 15rem;
+  width: 23rem !important;
+  height: 15rem !important;
 }
 .gallerymiddle {
   padding-top: 3rem;

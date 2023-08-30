@@ -48,9 +48,10 @@ const ImageSlider = () => {
         <div>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={0}
+                spaceBetween={30}
                 slidesPerView={slidesPerView}
                 navigation
+                loop
                 pagination={{ clickable: true }}
                 style={{ padding: "1rem 2rem" }}
             >

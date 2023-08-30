@@ -79,9 +79,13 @@
   background-color: #b86758;
   padding: 1rem 2rem;
   text-decoration: none;
+  border-radius: 30px;
 }
 .AboutButton:hover {
-  color: black;
+  color: #b86758;
+  background-color: white;
+  border: 3px solid #b86758;
+  text-decoration: none !important;
 }
 .videoBanner {
   width: 100%;
