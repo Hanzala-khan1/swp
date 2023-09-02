@@ -21,14 +21,14 @@ section {
   text-decoration: none;
 }
 .stdbtn {
-  margin: 1.5rem 0rem;
+  margin: 1rem 0rem;
 }
 .HeadStudio {
   font-weight: 900;
   color: #b86758;
   font-family: "Montserrat", sans-serif;
   font-size: 2.8rem;
-  margin: 1rem 1rem;
+  margin: 1rem 0rem;
 }
 
 /* content div styling */
@@ -62,7 +62,7 @@ p {
 }
 
 .divs {
-  padding: 3%;
+  padding: 0 2%;
   display: flex;
   align-items: center;
   flex-wrap: wrap;

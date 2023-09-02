@@ -2,7 +2,7 @@ import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 
 import Spinner from './component/spinner';
-import TestReview from './pages/TestReview';
+// import TestReview from './pages/TestReview';
 
 // Lazy-loaded components
 const Home = lazy(() => import('./pages/Home'));
@@ -30,7 +30,7 @@ function App() {
             <Route path="/contact-us" element={<ContactUS />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/blogs" element={<Blogs />} />
-            <Route path="/testimonials" element={<TestReview />} />
+            <Route path="/testimonials" element={<Testnomials />} />
             <Route path='/services/StudioForRent' element={<StudioForRent />} />
             <Route path='/services/BollywoodDanceClass' element={<BollywoodDance />} />
             <Route path='/services/WeddingChoreography' element={<WeddingCreagraphy />} />

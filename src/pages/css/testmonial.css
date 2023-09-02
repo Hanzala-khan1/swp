@@ -55,6 +55,10 @@
 .right {
   justify-content: right;
 }
+.passion {
+  color: white;
+  font-weight: 400;
+}
 @media (max-width: 500px) {
   .testmonial-section {
     flex-direction: column;

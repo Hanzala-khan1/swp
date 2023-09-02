@@ -51,12 +51,11 @@ const BollywoodDance = () => {
                         <LazyImage image={{ src: aboutImg1, className: 'img bollywooodimg' }} />
                     </div>
                     <div className='paraDiv bollywoodpara'>
-                        <h2 className='Danceteacher'>Bollywood Dance Class</h2>
+                        <h2 className='Danceteacher'>Bollywood Dance<br /> Class</h2>
                         <p>
-                            Express joy, connect with community, and tell stories through movement with Bollywood
-                            dancing! Pray’s Bollywood dance classes in Austin, Texas are fun for people of all cultural
-                            backgrounds and skill levels. Find out more about Sway With Pray’s group and private
-                            Bollywood dance lessons.
+                            Get Moving with Bollywood Dance Classes in Austin, TX! Are you looking for a fun way to get moving, express yourself, or connect with other creative people in the Austin community? Bollywood dance classes with Pray are fun for all skill levels and backgrounds. Whether you've been watching Bollywood movies since you were a child or are new to the music and culture, Pray will guide you through each dance move with ease.
+                            Join her weekly Bollywood class series, fitness classes, or private lessons. You can also book a
+                            workshop for your next corporate event, bachelor or bachelorette party, or other gatherings.
 
                         </p>
 
@@ -89,8 +88,8 @@ const BollywoodDance = () => {
                                 <h2>Fitness</h2>
                                 <p className='classBox'>
                                     <span>Mon</span>
-                                    <span>wed</span>
-                                    <span>fri</span>
+                                    <span>Wed</span>
+                                    <span>Fri</span>
                                 </p>
                                 <p>1st Oct, 2023</p>
                             </div>
