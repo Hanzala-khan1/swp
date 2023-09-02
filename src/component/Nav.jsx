@@ -39,7 +39,7 @@ const Navbar = () => {
                                 <Link to="/services/BollywoodDanceClass">Bollywood Dance Classes</Link>
                             </li>
                             <li>
-                                <Link to="/contact-us">Bollywood Special Events and SWP</Link>
+                                <Link to="/services/SpecialEvents">Bollywood Special Events and SWP</Link>
                             </li>
                             <li className={location.pathname === '/services/StudioForRent' ? 'active' : ''}>
                                 <Link to="/services/StudioForRent">Studio for Rent</Link>

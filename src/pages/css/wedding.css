@@ -41,3 +41,7 @@
     height: 44vh;
   }
 }
+.specailimage {
+  width: 100% !important;
+  height: 100vh;
+}
