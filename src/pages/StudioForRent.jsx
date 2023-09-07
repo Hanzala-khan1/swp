@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import "./css/StudioRent.css"
 import Navbar from '../component/Nav'
 import studio from "../assets/Studio.png"
@@ -7,11 +7,46 @@ import "./css/BollywoodDance.css"
 import "./css/About.css"
 
 const StudioForRent = () => {
+    // Create a ref to access the video element
+    const videoRef = useRef(null);
+
+    // Function to handle the click event on the video
+    const handleVideoClick = () => {
+        const videoElement = videoRef.current;
+
+        // Check if the video is paused or ended, then play it
+        if (videoElement.paused || videoElement.ended) {
+            videoElement.play();
+        } else {
+            // If it's playing, pause it
+            videoElement.pause();
+        }
+    };
     return (
         <>
             <Navbar />
             <div className='mainstudio'>
-                <video src={PromoVideo} autoPlay muted loop className='videostudio'>
+                {/* <video
+                    src={PromoVideo}
+                    preload='none'
+                    muted
+                    loop
+                    controls={ }
+                    className='videostudio'>
+                    Your browser does not support the video tag.
+                </video> */}
+                <video
+                    preload="none"
+                    poster={studio}
+                    ref={videoRef}
+                    controls
+                    onClick={handleVideoClick}
+                    className='videostudio'
+                >
+                    <source src={PromoVideo} type="video/mp4" />
+                    {/* You can add multiple source elements for different video formats */}
+                    {/* <source src="your-video-file.webm" type="video/webm" /> */}
+                    {/* <source src="your-video-file.ogv" type="video/ogg" /> */}
                     Your browser does not support the video tag.
                 </video>
             </div>

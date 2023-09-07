@@ -71,7 +71,7 @@ const ImageSlider = () => {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <div className='slide'>
                         <div className='inner-slide'>
                             <LazyImage image={{ src: ERIN }} />
@@ -86,7 +86,7 @@ const ImageSlider = () => {
                             </div>
                         </div>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
                 <SwiperSlide>
                     <div className='slide'>
                         <div className='inner-slide'>
