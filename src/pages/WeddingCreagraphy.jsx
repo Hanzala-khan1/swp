@@ -19,12 +19,24 @@ const WeddingCreagraphy = () => {
                 <div className='weddingDiv'>
                     <h2 className='Danceteacher wedding-heading wedding-btn'>Wedding Choreography</h2>
                     <p className='weddingpara'>
-                        South Asian weddings are always a festive occasion! Whether you’re looking for help planning
-                        an epic Sangeet or wanting a customized first dance, Pray is here to help.
+                        What better way to celebrate your joyous day than with Bollywood dancing?! Pray works with couples of all backgrounds to customize routines for their Sangeet, Mehendi, and other marital ceremonies. Celebrate your way with your favorite Bollywood songs that tell the story of your love! Let Pray lead the way and make sure everyone in your party is dancing the night away.
+                        Get in touch for Bollywood wedding choreography for the following and more:
                         <br />
-                        She’s provided
-                        Bollywood dance choreography, performances, and workshops at all kinds of South Asian and
-                        fusion weddings.
+                        <br />
+                        • Sangeet and Mehendi workshops
+                        <br />
+                        • Bride's/groom's solo and couple’s first dance
+                        <br />
+                        • Mother-of-the-bride performance
+                        <br />
+                        • Parent dance performance with bride or groom
+                        <br />
+                        • Bridesmaids' group dance
+                        <br />
+                        • Groomsmen group dance
+                        <br />
+                        • Family and friends of the bride/groom performance
+
                     </p>
                     <Link to="/contact-us" className='AboutButton wedding-btn' >
                         Get in Touch

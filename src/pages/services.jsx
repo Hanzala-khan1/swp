@@ -152,34 +152,6 @@ const Services = () => {
                 </div>
             </div> */}
             {/* ////////////////////////////////////////////////// */}
-            <div className="containerimage" id="div6">
-                <div className='blackbox'>
-                    <div className='toptraingle'>
-                        <svg className="top black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                            <polygon points="100,0 0,100 100,100" fill="rgba(8, 8, 8, 0.72)"></polygon>
-                        </svg>
-                    </div>
-                    <div className='inner_text'>
-                        <h1>
-                            Enjoy our Dance Studio Space in Austin!
-                        </h1>
-                        <p onClick={() => { navigate("/services/StudioForRent") }}>
-                            Looking for a space for your next creative project? Sway With Pray hosts an intimate studio
-                            space with a mirrored wall, snap lock industrial flooring, air conditioning, and LED lighting. The dance studio
-                            space is 425 sq. ft. and even features a hand-painted mural — perfect for video backdrops.
-                        </p>
-                        <a onClick={() => { navigate("/services/StudioForRent") }}>
-                            Book Studio Space
-                            <FontAwesomeIcon icon={faArrowRight} style={{ marginLeft: "1rem" }} />
-                        </a>
-                    </div>
-                    <div className='bottomtraingle'>
-                        <svg className="bottom black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                            <polygon points="0,100 0,0 100,0" fill="rgba(8, 8, 8, 0.72)"></polygon>
-                        </svg>
-                    </div>
-                </div>
-            </div>
             <div className="containerimage" id="div7">
                 <div className='blackbox'>
                     <div className='toptraingle'>
@@ -209,6 +181,35 @@ const Services = () => {
                     </div>
                 </div>
             </div>
+            <div className="containerimage" id="div6">
+                <div className='blackbox'>
+                    <div className='toptraingle'>
+                        <svg className="top black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <polygon points="100,0 0,100 100,100" fill="rgba(8, 8, 8, 0.72)"></polygon>
+                        </svg>
+                    </div>
+                    <div className='inner_text'>
+                        <h1>
+                            Enjoy our Dance Studio Space in Austin!
+                        </h1>
+                        <p onClick={() => { navigate("/services/StudioForRent") }}>
+                            Looking for a space for your next creative project? Sway With Pray hosts an intimate studio
+                            space with a mirrored wall, snap lock industrial flooring, air conditioning, and LED lighting. The dance studio
+                            space is 425 sq. ft. and even features a hand-painted mural — perfect for video backdrops.
+                        </p>
+                        <a onClick={() => { navigate("/services/StudioForRent") }}>
+                            Book Studio Space
+                            <FontAwesomeIcon icon={faArrowRight} style={{ marginLeft: "1rem" }} />
+                        </a>
+                    </div>
+                    <div className='bottomtraingle'>
+                        <svg className="bottom black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <polygon points="0,100 0,0 100,0" fill="rgba(8, 8, 8, 0.72)"></polygon>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
         </>
     )
 }
